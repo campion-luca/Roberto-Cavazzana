@@ -1,0 +1,35 @@
+import fotoProfilo from '../assets/Roberto.jpeg';
+
+const HomePage = () => {
+    return (
+        <>
+            <div className="grid grid-cols-1 justify-items-center m-5">
+
+                <img
+                    src={fotoProfilo}
+                    alt="Foto del profilo"
+                    className="shadow-xl/40 w-70"
+                />
+
+                <p className="m-5 text-justify">
+                    Nel 2010 ho fondato Rete HET, un gruppo di imprese che integra molteplici competenze
+                    per creare soluzioni innovative nel settore dell’edilizia, delle infrastrutture e
+                    dell’ambiente. Nel 2025 ho acquisito il Cantiere Navale Vittoria, specializzato in
+                    imbarcazioni militari e commerciali.
+                </p>
+
+            </div>
+
+            <p className="mt-2 p-2 bg-[#788d7a] text-black italic text-start ps-10">
+                " Fare bene insieme, <br /> TOGETHER WE MAKE IT REAL "
+            </p>
+
+            <div className="me-15 text-right text-black font-ballet text-5xl mt-2"
+                style={{ fontFamily: '"Ballet Variable", cursive' }}>
+                <p>Roberto.</p>
+            </div>
+        </>
+    )
+}
+
+export default HomePage;

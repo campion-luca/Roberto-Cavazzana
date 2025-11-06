@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import '@fontsource/abhaya-libre/400.css';
+/* @import '@fontsource/abhaya-libre/500.css';
+@import '@fontsource/abhaya-libre/600.css';
+@import '@fontsource/abhaya-libre/700.css';
+@import '@fontsource/abhaya-libre/800.css'; */
+@import '@fontsource-variable/ballet';
+
+html,
+body,
+#root {
+    min-height: 100dvh;
+}
+
+body {
+    background-color: #43634C;
+    background-image:
+        radial-gradient(circle at top left,
+            #2E4536 0%,
+            #43634C 60%,
+            rgba(67, 99, 76, 0) 100%),
+
+        radial-gradient(circle at bottom left,
+            #2E4536 0%,
+            #385340 80%,
+            rgba(67, 99, 76, 0) 100%);
+
+    color: #000000;
+    font-family: 'Abhaya Libre', serif;
+}
