@@ -2,9 +2,9 @@ const HomePage = () => {
     return (
         <div className='justify-items-end'>
 
-            <div className="max-w-xl text-md mt-5">
+            <div className="max-w-xl text-md mt-25">
 
-                <p className="text-justify me-10 tracking-widest text-base/7"
+                <p className="text-justify me-10 tracking-wider text-base/7"
                 style={{ fontFamily: '"Lato", sans-serif'}}>
                     Nel 2010 ho fondato Rete HET, un gruppo di imprese che integra molteplici competenze
                     per creare soluzioni innovative nel settore dell’edilizia, delle infrastrutture e
@@ -23,7 +23,7 @@ const HomePage = () => {
                     style={{ fontFamily: '"Lato", sans-serif'}}>TOGETHER WE MAKE IT REAL "</span>
                 </p>
 
-                <p className="text-right font-ballet text-3xl"
+                <p className="text-right font-ballet text-4xl"
                     style={{ fontFamily: '"Ballet Variable", cursive' }}>
                     Roberto
                 </p>
