@@ -1,17 +1,19 @@
-import { IoMailSharp, IoLogoLinkedin } from "react-icons/io5";
+// import { IoMailSharp, IoLogoLinkedin } from "react-icons/io5";
+// in attesa di conferma
 
 const Footer = () => {
     return (
-        <div className="flex flex-col items-start mx-10 mb-5">
-            <a href="mailto:robertocavazzana@robertocavazzana.it">
-                <p className="text-start flex items-center gap-2 text-xs"><IoMailSharp />
-                    robertocavazzana@robertocavazzana.it</p>
-            </a>
-            <a href="https://www.linkedin.com/in/robertocavazzana/" target="_blank" rel="noopener noreferrer">
-                <p className="text-start flex items-center gap-2 text-xs"><IoLogoLinkedin />
-                    in / robertocavazzana</p>
-            </a>
-        </div>
+            <div className="flex flex-col items-start text-md mb-5 ms-5">
+                <a href="mailto:robertocavazzana@robertocavazzana.it">
+                    <p className="text-start flex items-center gap-2">
+                        robertocavazzana@robertocavazzana.it</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/robertocavazzana/" target="_blank" rel="noopener noreferrer">
+                    <p className="text-start flex items-center gap-2">
+                        in / robertocavazzana</p>
+                </a>
+            </div>
     )
 }
 export default Footer;

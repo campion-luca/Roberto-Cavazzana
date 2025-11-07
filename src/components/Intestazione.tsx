@@ -1,7 +1,11 @@
 const Intestazione = () => {
     return (
-        <div className="flex justify-center items-center mt-3">
-            <h1 className="text-4xl">Roberto Cavazzana.</h1>
+        <div className="flex justify-start tracking-widest">
+
+            <h1 className="text-9xl mt-5 ms-5 ">
+                Roberto <br />
+                Cavazzana
+            </h1>
         </div>
     )
 }

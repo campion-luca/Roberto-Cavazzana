@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@fontsource-variable/ballet": "^5.2.8",
+    "@fontsource-variable/montserrat": "^5.2.8",
     "@fontsource/abhaya-libre": "^5.2.7",
+    "@fontsource/lato": "^5.2.7",
     "@tailwindcss/vite": "^4.1.16",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.552.0",

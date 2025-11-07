@@ -1,37 +1,35 @@
-import fotoProfilo from '../assets/Roberto.jpeg';
-
 const HomePage = () => {
     return (
-        <div className='max-w-4xl mx-auto'>
-            <div className="grid grid-cols-1 justify-items-center mt-4">
+        <div className='justify-items-end'>
 
-                <img
-                    src={fotoProfilo}
-                    alt="Foto profilo di Roberto Cavazzana"
-                    className="shadow-xl/40 w-60"
-                />
+            <div className="max-w-xl text-md mt-5">
 
-                <p className="mt-6 mx-10 text-justify">
+                <p className="text-justify me-10 tracking-widest text-base/7"
+                style={{ fontFamily: '"Lato", sans-serif'}}>
                     Nel 2010 ho fondato Rete HET, un gruppo di imprese che integra molteplici competenze
                     per creare soluzioni innovative nel settore dell’edilizia, delle infrastrutture e
                     dell’ambiente. Nel 2025 ho acquisito il Cantiere Navale Vittoria, specializzato in
                     imbarcazioni militari e commerciali.
                 </p>
+            </div>
+
+
+            <div className="me-30 mt-55">
+
+                <p className="text-2xl text-center">
+                    <span className="italic">" Fare bene insieme,</span>
+                    <br />
+                    <span
+                    style={{ fontFamily: '"Lato", sans-serif'}}>TOGETHER WE MAKE IT REAL "</span>
+                </p>
+
+                <p className="text-right font-ballet text-3xl"
+                    style={{ fontFamily: '"Ballet Variable", cursive' }}>
+                    Roberto
+                </p>
 
             </div>
 
-            <p className="mt-5 px-10 py-1 bg-[#788d7a] text-black italic text-start
-            border-b border-white/30 shadow-md">
-                " Fare bene insieme,
-                <br />
-                TOGETHER WE MAKE IT REAL "
-            </p>
-
-            {/* c'era un 'me-15' per staccarlo dal bordo */}
-            <div className="text-right text-black font-ballet text-xl me-5"
-                style={{ fontFamily: '"Ballet Variable", cursive' }}>
-                <p>Roberto</p>
-            </div>
         </div>
     )
 }
