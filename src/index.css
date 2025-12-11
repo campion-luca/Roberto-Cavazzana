@@ -15,22 +15,7 @@ body,
 }
 
 body {
-    background-image: url('./assets/Roberto.jpg');
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-
     color: #ffffff;
+    background-color: #43634c;
     font-family: 'Abhaya Libre', serif;
 }
-
-/* Sfondo sfumato originale */
-/* radial-gradient(circle at top left,
-            #2E4536 0%,
-            #43634C 60%,
-            rgba(67, 99, 76, 0) 100%),
-
-        radial-gradient(circle at bottom left,
-            #2E4536 0%,
-            #385340 80%,
-            rgba(67, 99, 76, 0) 100%); */

@@ -2,7 +2,7 @@ const Intestazione = () => {
     return (
         <div className="flex justify-start tracking-[.40em]">
 
-            <h1 className="text-8xl mt-5 ms-5 ">
+            <h1 className="text-8xl mt-5 ms-5 tracking-[.40em]">
                 Roberto <br />
                 Cavazzana
             </h1>

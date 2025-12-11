@@ -1,19 +1,9 @@
 import './App.css'
-import Footer from './components/Footer'
-import Intestazione from './components/Intestazione'
 import AppRoutes from './routes/AppRoutes'
 
 function App() {
   return (
-    <>
-      <div className="flex flex-col min-h-screen">
-        <Intestazione />
-        <main className="flex-grow">
           <AppRoutes />
-        </main>
-        <Footer />
-      </div>
-    </>
   )
 }
 
