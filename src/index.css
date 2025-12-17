@@ -1,12 +1,8 @@
 @import "tailwindcss";
-@import '@fontsource/abhaya-libre/400.css';
-/* @import '@fontsource/abhaya-libre/500.css';
-@import '@fontsource/abhaya-libre/600.css';
-@import '@fontsource/abhaya-libre/700.css';
-@import '@fontsource/abhaya-libre/800.css'; */
-@import '@fontsource-variable/ballet';
-/* @import '@fontsource-variable/montserrat'; - inutilizzato */
-@import '@fontsource/lato';
+@import '@fontsource-variable/ballet'; /* citazione */
+@import '@fontsource-variable/playfair-display'; /* titolo */
+@import '@fontsource-variable/inter'; /* testo */
+
 
 html,
 body,
@@ -17,5 +13,5 @@ body,
 body {
     color: #ffffff;
     background-color: #43634c;
-    font-family: 'Abhaya Libre', serif;
+    font-family: 'Inter Variable', sans-serif;
 }
