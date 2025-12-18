@@ -1,0 +1,67 @@
+<div className='grid-cols-2 max-w-7xl w-full'>
+    
+    {/* BLOCCO FOTO */}
+    <div>
+        <img
+                    src={roberto_profile}
+                    alt="Foto profilo Roberto Cavazzana"
+                    className="w-70 h-auto"
+                />
+    </div>
+
+    {/* BLOCCO TESTO */}
+    <div className='flex flex-col'>
+
+
+        <h1 className="text-8xl"
+                        style={{ fontFamily: 'Playfair Display Variable' }}>
+                        Roberto Cavazzana
+                    </h1>
+
+
+        <p className="text-4xl mt-4 text-start mt-7"
+                        style={{ fontFamily: 'Ballet Variable' }}>
+                        " fare bene insieme"
+                    </p>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------
+<div className="w-full max-w-7xl flex items-center gap-10">
+                <img
+                    src={roberto_profile}
+                    alt="Foto profilo Roberto Cavazzana"
+                    className="w-70 h-auto"
+                />
+
+                <div>
+                    <h1 className="text-8xl"
+                        style={{ fontFamily: 'Playfair Display Variable' }}>
+                        Roberto Cavazzana
+                    </h1>
+
+                    <p className="text-4xl mt-4 text-start mt-7"
+                        style={{ fontFamily: 'Ballet Variable' }}>
+                        " fare bene insieme"
+                    </p>
+                </div>
+            </div>
