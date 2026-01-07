@@ -3,7 +3,6 @@ import wallpaper from '../assets/wallpaper_home.png';
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { MdMailOutline } from "react-icons/md";
 
-
 // #f4f3f5 --> testo bianco
 // #011c0c18 --> verde scuro sfondo
 
