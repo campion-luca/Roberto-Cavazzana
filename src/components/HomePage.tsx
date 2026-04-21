@@ -23,18 +23,18 @@ const HomePage = () => {
                         Roberto Cavazzana
                     </h1>
 
-                    <div className="bg-gradient-to-r from-[#011c0c18] via-[#011c0cff] to-[#011c0c18]/50 w-full text-center hidden sm:block mt-4">
+                    <div className="bg-linear-to-r from-[#011c0c18] via-[#011c0cff] to-[#011c0c18]/50 w-full text-center hidden sm:block mt-4">
                         <p
                             className="text-4xl lg:text-5xl"
                             style={{ fontFamily: 'Ballet Variable' }}>
                             " fare bene insieme"
                         </p>
                     </div>
-                    <div className="hidden sm:block w-full h-[2px] bg-gradient-to-r from-transparent via-[#a4ae95] via-95% to-transparent" />
+                    <div className="hidden sm:block w-full h-0.5 bg-linear-to-r from-transparent via-[#a4ae95] via-95% to-transparent" />
                 </div>
 
                 {/* BLOCCO FOTO */}
-                <div className="order-3 flex justify-center pt-3 sm:order-1 sm:ps-5 lg:order-none">
+                <div className="order-3 flex justify-center pt-3 sm:order-1 sm:ps-5 lg:order-0">
                     <img
                         src={roberto_profile}
                         alt="Foto profilo Roberto Cavazzana"
@@ -55,7 +55,7 @@ const HomePage = () => {
 
             </div>
 
-            <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-[#a4ae95] via-90% to-transparent" />
+            <div className="w-full h-0.5 bg-linear-to-r from-transparent via-[#a4ae95] via-90% to-transparent" />
 
             {/* BLOCCO DESCRIZIONE */}
             <div className="w-full bg-[#011c0c]/60 text-white shadow-xl">
@@ -74,7 +74,7 @@ const HomePage = () => {
                     favorire uno sviluppo reale, fondato sulle persone e sul territorio.
                 </p>
             </div>
-            <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-[#a4ae95] via-5% to-transparent" />
+            <div className="w-full h-0.5 bg-linear-to-r from-transparent via-[#a4ae95] via-5% to-transparent" />
 
 
             {/* BLOCCO CONTATTI */}
